@@ -1,0 +1,40 @@
+CURRENT SITUATION
+
+Gli attuali sistemi di navigazione stradale forniscono una schematizzazione della realtà tramite mappe 
+che, spesso, risulta essere poco chiara e di difficile intuizione per un automobilista concentrato alla guida.
+L’idea è quella di sviluppare un sistema di navigazione a realtà aumentata, che replichi la visuale dell’essere umano alla guida, 
+sovrapponendo ad essa, le informazioni aggiuntive relative al percorso che l’utente deve effettuare.
+La soluzione proposta, prevede lo sviluppo di un’applicazione mobile che sfrutta le immagini acquisite dal dispositivo 
+posizionato sul parabrezza del veicolo, per fornire in real time informazioni riguardanti il percorso da seguire. 
+Tali informazioni, saranno proiettate direttamente sulle immagini acquisite dall’ambiente esterno.
+
+SCENARIOS
+
+NOME: PrimoAvvio
+ATTORI: Marta, Automobilista
+DESCRIZIONE (FLUSSO DEGLI EVENTI): 
+- Marta prende il suo smartphone e avvia l’applicazione.
+- L’applicazione mostra un messaggio che avvisa Marta di scaricare le mappe.
+- Marta clicca sul bottone scarica mappe.
+- L’applicazione presenta una schermata in cui Marta può scegliere la mappa da scaricare.
+- Marta clicca su ‘Italia’.
+- L’Applicazione comincia il download della mappa e avvisa Marta di attenderne il completamento prima di poter utilizzare il navigatore.
+- Marta clicca su 'OK'.
+- L’applicazione notifica a Marta l’avvenuto download della mappa.
+
+NOME: Navigazione
+ATTORI: Antonio, Automobilista
+DESCRIZIONE (FLUSSO DEGLI EVENTI): 
+- Antonio ha già installato la mappa ‘Italia’ e vuole dirigersi a Torino, pertanto, prende il suo smartphone e avvia l’applicazione.
+- L’applicazione mostra una finestra in cui Antonio può inserire la destinazione specificando via e città.
+- Antonio inserisce ‘Piazza Castello 35, Torino’.
+- L’applicazione mostra una serie di possibili risultati. 
+- Antonio, sceglie la destinazione di interesse e clicca ‘Vai’.
+- L’applicazione mostra un messaggio che indica di posizionare lo smartphone a ridosso del parabrezza tramite l’apposito supporto. 
+- Antonio posiziona il suo smartphone sul parabrezza.
+- L’Applicazione passa in modalità ‘navigazione’, abilita la fotocamera dello smartphone e evidenzia sulla schermata acquisita la direzione da seguire.
+- Antonio procede lungo il percorso indicato fino ad arrivare ad un incrocio.
+- In prossimità dell'incrocio, l’applicazione si accorge della presenza dello stesso e tramite la visuale acquisita della fotocamera disegna una freccia indicante il percorso da seguire.
+- Antonio, prosegue lungo il percorso fino a raggiungere la destinazione.
+
+
